@@ -1,0 +1,283 @@
+/* 1- Most of the color are defined here */
+:root{
+/* [background color]: header on top */
+--logo-blue: rgba(35, 0, 35, 1)!important; /*dark_color*/
+
+/* [font color]: 'contacting' links, footer links, 'add comments' links, 'view blog' links*/ 
+--darker-blue: rgba(184, 255, 114, 1)!important; /*light_color*/
+
+/* [background color]: table headers, main top menu, border color*/
+--lighter-blue: rgba(15, 0, 35, 1)!important; /*dark_color*/
+
+
+/* [background color]: 'interests' table (left column) */
+/* [background color]: 'interests' table (right column) */
+--even-lighter-blue: rgba(0, 17, 39, 1)!important; /*dark_color*/
+--lightest-blue: rgba(14, 0, 34, 1)!important; /*dark_color*/
+
+
+/* [font color]: 'blurbs' , 'friend space', 'friends comments' */
+/* [background color]: 'blurbs' , 'friend space', 'friends comments' */
+--dark-orange: rgba(183, 219, 255, 1)!important; /*bright_color*/
+--light-orange: rgba(0, 37, 37, 1)!important; /*dark_color*/
+
+/* [background color]: 'friend comments' right column */
+--even-lighter-orange: rgba(0, 26, 10, 1)!important; /*dark_color*/
+
+--my-color1: rgba(187, 120, 255, 1)!important; /*light_color*/  
+--my-color2: rgba(130, 255, 6, 1)!important; /*light_color*/  
+--my-color3: rgba(255, 43, 255, 1)!important; /*light_color*/  
+--my-color4: rgba(165, 210, 255, 1)!important; /*light_color*/  
+}
+
+/*20- [background color]:  the main entire page*/
+body{
+/*https://unsplash.it/1024/768?random*/
+background-color: black!important;
+/*background: black url("https://unsplash.it/1024/768?random")!important;  /*_color*/
+background: black url("https://unsplash.it/1024/768?random")!important;  /*back_color*/
+background-repeat: no-repeat!important;
+background-position: center center!important;
+background-size: cover!important;
+background-attachment: fixed!important;
+}
+
+/*24- width of the page */
+.container{
+background-color: rgba(0,0,0, .5)!important;
+padding:10px!important;
+margin-top:10px!important;  /* added */
+max-width: 1280px!important;
+width: 90%!important;
+border: 0px solid white!important;  
+}
+
+
+
+
+/*32- [font color]: footer links, override almost all links*/
+a{
+color: var(--my-color3)!important; /*_color*/
+font-weight: 600 !important;
+
+
+}
+
+/*108- font scale*/
+/*     font weight [added by me] */
+nav .links a{    
+font-size: 1em!important;
+font-weight: 600!important; /* added */
+}
+
+/*117- [background color]: the main white area */
+/*    [font color]: most of the fonts in the main area*/
+/*    top and bottom space */
+/*    font scale */
+main{    
+/*background-color: rgba(0, 27, 11, 1)!important; */
+background-color:rgba(0,0,0,0)!important;     
+color: rgba(255, 83, 83, 1)!important; /*light_color*/
+font-size: 90%!important;  
+}
+
+/*127- [background color]: footer area*/
+/*     [Font color]: text footer area  [added by me]*/
+/*     remove the margin top and bottom [added by me]*/
+footer{  
+background-color: var(--logo-blue)!important; /*_color*/
+color: var(--my-color4)!important; /* * */ /*_color*/
+margin: 0px !important; /* * */
+}
+
+/*415- [font color]: 'interests' left column text */
+.details-table td{  
+color: rgba(255, 75, 75, 1)!important; /*light_color*/
+background-color:transparent!important;
+/*border-bottom:1px solid var(--my-color1)!important;*/
+}
+.details-table td:first-child{border-right:1px solid var(--my-color1)!important;}
+
+
+/*471- [font color]: the link-text up to the friend photo  */
+.profile .friends .person p{
+color: rgba(255, 53, 255, 1)!important; /*bright_color*/
+}
+
+/*485- [font color]: text of 'comments' counter */
+.count{
+color: rgba(255, 213, 172, 1)!important; /*bright_color*/
+}
+
+/*496- [background color]: 'friend comments' left column */
+.comments-table td:first-child,
+.music-table td:first-child{
+background-color: rgba(26, 0, 10, 1)!important; /*dark_color*/
+}
+
+
+/*819- [font color of the 'Online' text next to the user photo]: */
+.online{
+color: rgba(255, 38, 38, 1)!important; /*light_color*/
+}
+
+
+
+
+/** ---------------------------------------------------- **/
+/* my additions */
+body {
+font-weight: 400!important; 
+font-family: Poppins, "Noto Sans", "Roboto", "Fira Sans", "Sans-Serif"!important; /*font_body*/
+}
+
+
+/*main menu border*/
+nav div.top, nav ul.links {
+border-width: 1px;
+border-style: solid!important;
+border-color: var(--my-color3)!important; /*_color*/
+}
+nav div.top {border-top:0px solid transparent!important;}
+nav ul.links {border-bottom:0px solid transparent!important;}
+nav .links { text-align: center!important;}
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*all headings font, in main area*/
+.left > h1,.contact .heading, .table-section .heading,.blog-preview h4,.blurbs .heading,.friends .heading ,h4, h4 a{
+font-weight: 400!important; 
+font-family: Righteous, "Noto Sans", "Roboto", "Fira Sans", "Sans-Serif"!important; /*font_headers*/
+}
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  */
+/*size of name or user*/
+.left > h1{font-size:24px!important;}
+/*pading of name and photo area*/
+.general-about, .mood, .left > h1{padding:5px!important;}
+
+/* background and font color of the name of user */
+.left > h1 {
+text-align:center!important;
+background-color: var(--my-color1)!important;  /*_color*/  
+color: var(--lighter-blue)!important;  /*_color*/  
+}
+
+.url-info{text-align:center!important;}
+
+table {border-spacing: 0px;}
+/* << table headers font and background color, left side*/
+.heading {
+margin: 0px!important;
+color: rgba(29, 12, 0, 1)!important; /*dark_color*/
+background-color: var(--my-color1)!important;  /*_color*/  
+}
+
+/* border and padding of name, photo and mood area*/
+.general-about, .mood, .left > h1{
+border:1px solid var(--my-color1)!important;
+padding:5px!important;}
+/* << border colors tables left side*/
+.table-section, .contact, .heading h4, .url-info{
+border-color: var(--my-color1)!important; /*_color*/
+}
+/* << background of contact and url tables */
+div.contact,div.url-info,.mood,.general-about,div.inner > table  {background-color:var(--lightest-blue)!important;}
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/*padding blog area*/
+div.blog-preview > p{padding:5px!important;}
+.friends:not(#comments) {margin-bottom:20px!important;}
+
+/*content table background and borders right side >*/
+.profile .blurbs, .profile .blog-preview, .profile .friends,.blog-preview h4{
+border: 1px solid var(--my-color2)!important;
+padding: 0px!important;
+background-color: rgba(38, 0, 0, 1)!important; /*dark_color*/  
+}
+
+/*headers table right side>*/
+.profile .blurbs .heading,
+.profile .friends .heading,.blog-preview h4{
+margin: 0px!important;
+color: rgba(0, 10, 25, 1)!important; /*dark_color*/
+background-color: var(--my-color2)!important;  /*_*/
+text-align:center!important;
+}
+
+#comments > div.inner > table {
+border-spacing:0px!important;
+border: 1px solid var(--my-color2)!important;
+border-collapse: collapse!important;
+margin:0px!important;
+}
+#comments > div.inner {padding:0px!important;}
+#comments > div.inner > p {
+text-align:center!important;
+padding-top:10px!important;
+padding-bottom:5px!important;
+}
+
+a.more,div h4 a {
+color: rgba(34, 0, 0, 1)!important; /*dark_color*/
+text-decoration: underline!important;
+}
+
+/* vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv  */
+div>footer {
+padding:0px!important;
+border:1px solid var(--my-color4)!important;
+}
+
+div>footer p:first-child{
+padding: 0px!important;
+margin: 0px!important;
+color: rgba(0, 25, 0, 1)!important; /*dark_color*/
+background-color: var(--my-color4)!important;
+}
+
+
+/*fixes*/
+/*necesary for proper display of contact and footer background*/
+div>footer,.left>div.contact,div > nav{display:block!important;}
+/*necesary for general-about area to take all the height*/
+.general-about {display:flex!important;border-bottom:0px!important;}
+/*merge mood with general about border*/
+.mood{border-top:0px!important;}
+
+p, ol li {font-size:1em!important;}
+.comments-table p{font-weight:600!important;}
+
+
+/** ================================================== **/
+
+
+
+
+
+
+nav div.top {border:1px solid var(--my-color3)!important;}
+nav ul.links {border:1px solid var(--my-color3)!important;}
+
+
+    div>nav{
+    display:flex!important;
+    flex-flow: column!important;
+    }
+    div>nav .top{order:1;}
+    div>nav .links{order:2;}
+
+        nav div.top {border-bottom:0px solid transparent!important;}
+        nav ul.links {border-top:0px solid transparent!important;}    
+    
+
+    main > div{
+    display:flex!important;
+    flex-flow: row!important;
+    }
+    .col.w-40.left{order:2;width:40%!important;}
+    .col.right{order:1;width:60%!important;}
+    
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
