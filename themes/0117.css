@@ -1,42 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andika&family=Asap&display=swap');
 /* 1- Most of the color are defined here */
 :root{
 /* [background color]: header on top */
---logo-blue: rgba(34, 0, 34, 1)!important; /*dark_color*/
+--logo-blue: rgba(0, 0, 30, 1)!important; /*dark_color*/
 
 /* [font color]: 'contacting' links, footer links, 'add comments' links, 'view blog' links*/ 
---darker-blue: rgba(255, 220, 186, 1)!important; /*light_color*/
+--darker-blue: rgba(255, 255, 63, 1)!important; /*light_color*/
 
 /* [background color]: table headers, main top menu, border color*/
---lighter-blue: rgba(0, 0, 27, 1)!important; /*dark_color*/
+--lighter-blue: rgba(39, 0, 17, 1)!important; /*dark_color*/
 
 
 /* [background color]: 'interests' table (left column) */
 /* [background color]: 'interests' table (right column) */
---even-lighter-blue: rgba(0, 35, 15, 1)!important; /*dark_color*/
---lightest-blue: rgba(0, 0, 26, 1)!important; /*dark_color*/
+--even-lighter-blue: rgba(0, 12, 30, 1)!important; /*dark_color*/
+--lightest-blue: rgba(36, 36, 0, 1)!important; /*dark_color*/
 
 
 /* [font color]: 'blurbs' , 'friend space', 'friends comments' */
 /* [background color]: 'blurbs' , 'friend space', 'friends comments' */
---dark-orange: rgba(255, 129, 255, 1)!important; /*bright_color*/
---light-orange: rgba(17, 0, 39, 1)!important; /*dark_color*/
+--dark-orange: rgba(172, 89, 255, 1)!important; /*bright_color*/
+--light-orange: rgba(0, 0, 35, 1)!important; /*dark_color*/
 
 /* [background color]: 'friend comments' right column */
---even-lighter-orange: rgba(0, 34, 14, 1)!important; /*dark_color*/
+--even-lighter-orange: rgba(14, 0, 34, 1)!important; /*dark_color*/
 
---my-color1: rgba(100, 255, 177, 1)!important; /*light_color*/  
---my-color2: rgba(255, 160, 160, 1)!important; /*light_color*/  
---my-color3: rgba(255, 82, 255, 1)!important; /*light_color*/  
---my-color4: rgba(255, 10, 10, 1)!important; /*light_color*/  
+--my-color1: rgba(255, 255, 58, 1)!important; /*light_color*/  /*headers background left*/
+--my-color2: rgba(0, 224, 0, 1)!important; /*my_color*/  /*headers background right*/
+--my-color3: rgba(255, 134, 194, 1)!important; /*my_color*/  /*top nav border color*/
+--my-color4: rgba(12, 255, 255, 1)!important; /*my_color*/  /*footer border and header color*/
 }
 
 /*20- [background color]:  the main entire page*/
 body{
-/*https://unsplash.it/1024/768?random*/
-background-color: black!important;
-/*background: black url("https://unsplash.it/1024/768?random")!important;  /*_color*/
 background: black url("https://unsplash.it/1024/768?random")!important;  /*back_color*/
 background-repeat: no-repeat!important;
 background-position: center center!important;
@@ -79,7 +76,7 @@ font-weight: 600!important; /* added */
 main{    
 /*background-color: rgba(0, 27, 11, 1)!important; */
 background-color:rgba(0,0,0,0)!important;     
-color: rgba(192, 129, 255, 1)!important; /*light_color*/
+color: rgba(255, 158, 158, 1)!important; /*light_color*/
 font-size: 90%!important;  
 }
 
@@ -94,7 +91,7 @@ margin: 0px !important; /* * */
 
 /*415- [font color]: 'interests' left column text */
 .details-table td{  
-color: rgba(103, 179, 255, 1)!important; /*light_color*/
+color: rgba(120, 255, 187, 1)!important; /*light_color*/
 background-color:transparent!important;
 /*border-bottom:1px solid var(--my-color1)!important;*/
 }
@@ -103,24 +100,24 @@ background-color:transparent!important;
 
 /*471- [font color]: the link-text up to the friend photo  */
 .profile .friends .person p{
-color: rgba(177, 99, 255, 1)!important; /*bright_color*/
+color: rgba(167, 167, 255, 1)!important; /*bright_color*/
 }
 
 /*485- [font color]: text of 'comments' counter */
 .count{
-color: rgba(183, 219, 255, 1)!important; /*bright_color*/
+color: rgba(226, 198, 255, 1)!important; /*bright_color*/
 }
 
 /*496- [background color]: 'friend comments' left column */
 .comments-table td:first-child,
 .music-table td:first-child{
-background-color: rgba(0, 0, 31, 1)!important; /*dark_color*/
+background-color: rgba(15, 0, 36, 1)!important; /*dark_color*/
 }
 
 
 /*819- [font color of the 'Online' text next to the user photo]: */
 .online{
-color: rgba(255, 199, 255, 1)!important; /*light_color*/
+color: rgba(4, 129, 255, 1)!important; /*light_color*/
 }
 
 
@@ -130,7 +127,7 @@ color: rgba(255, 199, 255, 1)!important; /*light_color*/
 /* my additions */
 body {
 font-weight: 400!important; 
-font-family: Montserrat, "Noto Sans", "Roboto", "Fira Sans", "Sans-Serif"!important; /*font_body*/
+font-family: "Asap", "Noto Sans", "Roboto", "Fira Sans", "Sans-Serif"!important; /*font_body*/
 }
 
 
@@ -147,7 +144,7 @@ nav .links { text-align: center!important;}
 /*all headings font, in main area*/
 .left > h1,.contact .heading, .table-section .heading,.blog-preview h4,.blurbs .heading,.friends .heading ,h4, h4 a{
 font-weight: 400!important; 
-font-family: Sigmar One, "Noto Sans", "Roboto", "Fira Sans", "Sans-Serif"!important; /*font_headers*/
+font-family: "Bowlby One SC", "Noto Sans", "Roboto", "Fira Sans", "Sans-Serif"!important; /*font_headers*/
 }
 
 
@@ -170,7 +167,7 @@ table {border-spacing: 0px;}
 /* << table headers font and background color, left side*/
 .heading {
 margin: 0px!important;
-color: rgba(26, 0, 10, 1)!important; /*dark_color*/
+color: rgba(0, 28, 0, 1)!important; /*dark_color*/
 background-color: var(--my-color1)!important;  /*_color*/  
 }
 
@@ -196,14 +193,14 @@ div.blog-preview > p{padding:5px!important;}
 .profile .blurbs, .profile .blog-preview, .profile .friends,.blog-preview h4{
 border: 1px solid var(--my-color2)!important;
 padding: 0px!important;
-background-color: rgba(0, 0, 32, 1)!important; /*dark_color*/  
+background-color: rgba(13, 0, 32, 1)!important; /*dark_color*/  
 }
 
 /*headers table right side>*/
 .profile .blurbs .heading,
 .profile .friends .heading,.blog-preview h4{
 margin: 0px!important;
-color: rgba(0, 29, 29, 1)!important; /*dark_color*/
+color: rgba(32, 13, 0, 1)!important; /*dark_color*/
 background-color: var(--my-color2)!important;  /*_*/
 text-align:center!important;
 }
@@ -222,7 +219,7 @@ padding-bottom:5px!important;
 }
 
 a.more,div h4 a {
-color: rgba(0, 40, 0, 1)!important; /*dark_color*/
+color: rgba(0, 38, 16, 1)!important; /*dark_color*/
 text-decoration: underline!important;
 }
 
@@ -235,7 +232,7 @@ border:1px solid var(--my-color4)!important;
 div>footer p:first-child{
 padding: 0px!important;
 margin: 0px!important;
-color: rgba(0, 17, 39, 1)!important; /*dark_color*/
+color: rgba(40, 0, 40, 1)!important; /*dark_color*/
 background-color: var(--my-color4)!important;
 }
 
