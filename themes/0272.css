@@ -1,33 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 /* 1- Most of the color are defined here */
 :root{
 /* [background color]: header on top */
---logo-blue: rgba(0, 31, 0, 1)!important; /*dark_color*/
+--logo-blue: rgba(0, 0, 29, 1)!important; /*dark_color*/
 
 /* [font color]: 'contacting' links, footer links, 'add comments' links, 'view blog' links*/ 
---darker-blue: rgba(255, 1, 1, 1)!important; /*light_color*/
+--darker-blue: rgba(99, 255, 177, 1)!important; /*light_color*/
 
 /* [background color]: table headers, main top menu, border color*/
---lighter-blue: rgba(0, 32, 13, 1)!important; /*dark_color*/
+--lighter-blue: rgba(0, 26, 26, 1)!important; /*dark_color*/
 
 
 /* [background color]: 'interests' table (left column) */
 /* [background color]: 'interests' table (right column) */
---even-lighter-blue: rgba(28, 0, 11, 1)!important; /*dark_color*/
---lightest-blue: rgba(33, 0, 33, 1)!important; /*dark_color*/
+--even-lighter-blue: rgba(27, 27, 0, 1)!important; /*dark_color*/
+--lightest-blue: rgba(34, 0, 0, 1)!important; /*dark_color*/
 
 
 /* [font color]: 'blurbs' , 'friend space', 'friends comments' */
 /* [background color]: 'blurbs' , 'friend space', 'friends comments' */
---dark-orange: rgba(195, 136, 255, 1)!important; /*bright_color*/
---light-orange: rgba(14, 33, 0, 1)!important; /*dark_color*/
+--dark-orange: rgba(255, 11, 11, 1)!important; /*bright_color*/
+--light-orange: rgba(26, 0, 26, 1)!important; /*dark_color*/
 
 /* [background color]: 'friend comments' right column */
---even-lighter-orange: rgba(16, 0, 37, 1)!important; /*dark_color*/
+--even-lighter-orange: rgba(0, 31, 13, 1)!important; /*dark_color*/
 
---my-color1: rgba(0, 244, 122, 1)!important; /*light_color*/  
---my-color2: rgba(160, 160, 255, 1)!important; /*light_color*/  
---my-color3: rgba(100, 100, 255, 1)!important; /*light_color*/  
---my-color4: rgba(0, 181, 90, 1)!important; /*light_color*/  
+--my-color1: rgba(255, 168, 255, 1)!important; /*light_color*/  
+--my-color2: rgba(255, 17, 17, 1)!important; /*light_color*/  
+--my-color3: rgba(199, 144, 255, 1)!important; /*light_color*/  
+--my-color4: rgba(255, 151, 48, 1)!important; /*light_color*/  
 }
 
 /*20- [background color]:  the main entire page*/
@@ -77,7 +79,7 @@ font-weight: 600!important; /* added */
 main{    
 /*background-color: rgba(0, 27, 11, 1)!important; */
 background-color:rgba(0,0,0,0)!important;     
-color: rgba(255, 82, 255, 1)!important; /*light_color*/
+color: rgba(102, 102, 255, 1)!important; /*light_color*/
 font-size: 90%!important;  
 }
 
@@ -92,7 +94,7 @@ margin: 0px !important; /* * */
 
 /*415- [font color]: 'interests' left column text */
 .details-table td{  
-color: rgba(80, 255, 255, 1)!important; /*light_color*/
+color: rgba(51, 255, 255, 1)!important; /*light_color*/
 background-color:transparent!important;
 /*border-bottom:1px solid var(--my-color1)!important;*/
 }
@@ -101,24 +103,24 @@ background-color:transparent!important;
 
 /*471- [font color]: the link-text up to the friend photo  */
 .profile .friends .person p{
-color: rgba(255, 255, 67, 1)!important; /*bright_color*/
+color: rgba(0, 254, 127, 1)!important; /*bright_color*/
 }
 
 /*485- [font color]: text of 'comments' counter */
 .count{
-color: rgba(255, 168, 81, 1)!important; /*bright_color*/
+color: rgba(255, 175, 215, 1)!important; /*bright_color*/
 }
 
 /*496- [background color]: 'friend comments' left column */
 .comments-table td:first-child,
 .music-table td:first-child{
-background-color: rgba(0, 39, 39, 1)!important; /*dark_color*/
+background-color: rgba(32, 0, 0, 1)!important; /*dark_color*/
 }
 
 
 /*819- [font color of the 'Online' text next to the user photo]: */
 .online{
-color: rgba(255, 163, 72, 1)!important; /*light_color*/
+color: rgba(137, 255, 255, 1)!important; /*light_color*/
 }
 
 
@@ -128,7 +130,7 @@ color: rgba(255, 163, 72, 1)!important; /*light_color*/
 /* my additions */
 body {
 font-weight: 400!important; 
-font-family: IBM Plex Sans, "Noto Sans", "Roboto", "Fira Sans", "Sans-Serif"!important; /*font_body*/
+font-family: Raleway, "Noto Sans", "Roboto", "Fira Sans", "Sans-Serif"!important; /*font_body*/
 }
 
 
@@ -145,7 +147,7 @@ nav .links { text-align: center!important;}
 /*all headings font, in main area*/
 .left > h1,.contact .heading, .table-section .heading,.blog-preview h4,.blurbs .heading,.friends .heading ,h4, h4 a{
 font-weight: 400!important; 
-font-family: Fredoka One, "Noto Sans", "Roboto", "Fira Sans", "Sans-Serif"!important; /*font_headers*/
+font-family: Righteous, "Noto Sans", "Roboto", "Fira Sans", "Sans-Serif"!important; /*font_headers*/
 }
 
 
@@ -168,7 +170,7 @@ table {border-spacing: 0px;}
 /* << table headers font and background color, left side*/
 .heading {
 margin: 0px!important;
-color: rgba(27, 27, 0, 1)!important; /*dark_color*/
+color: rgba(17, 39, 0, 1)!important; /*dark_color*/
 background-color: var(--my-color1)!important;  /*_color*/  
 }
 
@@ -194,14 +196,14 @@ div.blog-preview > p{padding:5px!important;}
 .profile .blurbs, .profile .blog-preview, .profile .friends,.blog-preview h4{
 border: 1px solid var(--my-color2)!important;
 padding: 0px!important;
-background-color: rgba(34, 0, 0, 1)!important; /*dark_color*/  
+background-color: rgba(0, 29, 0, 1)!important; /*dark_color*/  
 }
 
 /*headers table right side>*/
 .profile .blurbs .heading,
 .profile .friends .heading,.blog-preview h4{
 margin: 0px!important;
-color: rgba(11, 0, 28, 1)!important; /*dark_color*/
+color: rgba(0, 34, 34, 1)!important; /*dark_color*/
 background-color: var(--my-color2)!important;  /*_*/
 text-align:center!important;
 }
@@ -220,7 +222,7 @@ padding-bottom:5px!important;
 }
 
 a.more,div h4 a {
-color: rgba(0, 0, 31, 1)!important; /*dark_color*/
+color: rgba(0, 40, 40, 1)!important; /*dark_color*/
 text-decoration: underline!important;
 }
 
@@ -233,7 +235,7 @@ border:1px solid var(--my-color4)!important;
 div>footer p:first-child{
 padding: 0px!important;
 margin: 0px!important;
-color: rgba(12, 0, 29, 1)!important; /*dark_color*/
+color: rgba(0, 31, 0, 1)!important; /*dark_color*/
 background-color: var(--my-color4)!important;
 }
 
@@ -272,17 +274,9 @@ nav ul.links {border:1px solid var(--my-color3)!important;}
         nav ul.links {border-top:0px solid transparent!important;}    
     
 
-    main > div{
-    display:flex!important;
-    flex-flow: row!important;
-    }
-    .col.w-40.left{order:2;width:40%!important;}
-    .col.right{order:1;width:60%!important;}
-    
-
 /* ::::::::::::::::::::::::::::::::::::::::::::::::::::: */
 
-.profile .friends, .url-info{border-width: 1px!important;}
+.profile .friends, .url-info{border-width: 3px!important;}
 /*rounded elements*/
 .left h1,div.profile-pic > img,.url-info {
     border-radius: 25px!important;
@@ -293,12 +287,12 @@ nav ul.links {border:1px solid var(--my-color3)!important;}
 /*--25--*/
 nav ul.links , .left .general-about{ /*abajo no25*/
 border-radius: 25px 25px 0px 0px!important;
-border-width: 1px 1px 0px 1px!important;
+border-width: 3px 3px 0px 3px!important;
 border-style: solid!important;
 }
 nav div.top, .mood {    /*arriba no25*/
 border-radius: 0px 0px 25px 25px!important;
-border-width: 0px 1px 1px 1px!important;
+border-width: 0px 3px 3px 3px!important;
 border-style: solid!important;
 }
 /*--15--*/
@@ -306,7 +300,7 @@ nada {border-radius: 15px!important;}
 
 .contact,.table-section,.right div.blog-preview,.right > div.blurbs, .right > div{/*abajo no15*/
 border-radius: 15px 15px 0px 0px!important;
-border-width: 1px!important;
+border-width: 3px!important;
 }
 
 tmp{border:1px solid cyan!important} /*testear borde*/
@@ -326,14 +320,12 @@ border-radius: 10px 10px 0px 0px!important;
 
         nav div.top{ /*abajo no25*/
         border-radius: 25px 25px 0px 0px!important;
-        border-width: 1px 1px 0px 1px!important;
+        border-width: 3px 3px 0px 3px!important;
         border-style: solid!important;
         }
         nav ul.links {    /*arriba no25*/
         border-radius: 0px 0px 25px 25px!important;
-        border-width: 0px 1px 1px 1px!important;
+        border-width: 0px 3px 3px 3px!important;
         border-style: solid!important;
         }
         
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');

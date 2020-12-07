@@ -1,33 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 /* 1- Most of the color are defined here */
 :root{
 /* [background color]: header on top */
---logo-blue: rgba(15, 35, 0, 1)!important; /*dark_color*/
+--logo-blue: rgba(30, 30, 0, 1)!important; /*dark_color*/
 
 /* [font color]: 'contacting' links, footer links, 'add comments' links, 'view blog' links*/ 
---darker-blue: rgba(255, 30, 30, 1)!important; /*light_color*/
+--darker-blue: rgba(1, 255, 255, 1)!important; /*light_color*/
 
 /* [background color]: table headers, main top menu, border color*/
---lighter-blue: rgba(17, 0, 39, 1)!important; /*dark_color*/
+--lighter-blue: rgba(0, 34, 34, 1)!important; /*dark_color*/
 
 
 /* [background color]: 'interests' table (left column) */
 /* [background color]: 'interests' table (right column) */
---even-lighter-blue: rgba(36, 36, 0, 1)!important; /*dark_color*/
---lightest-blue: rgba(0, 12, 30, 1)!important; /*dark_color*/
+--even-lighter-blue: rgba(27, 27, 0, 1)!important; /*dark_color*/
+--lightest-blue: rgba(0, 39, 17, 1)!important; /*dark_color*/
 
 
 /* [font color]: 'blurbs' , 'friend space', 'friends comments' */
 /* [background color]: 'blurbs' , 'friend space', 'friends comments' */
---dark-orange: rgba(41, 148, 255, 1)!important; /*bright_color*/
---light-orange: rgba(10, 25, 0, 1)!important; /*dark_color*/
+--dark-orange: rgba(255, 159, 64, 1)!important; /*bright_color*/
+--light-orange: rgba(0, 0, 26, 1)!important; /*dark_color*/
 
 /* [background color]: 'friend comments' right column */
---even-lighter-orange: rgba(26, 0, 26, 1)!important; /*dark_color*/
+--even-lighter-orange: rgba(0, 0, 40, 1)!important; /*dark_color*/
 
---my-color1: rgba(225, 196, 255, 1)!important; /*light_color*/  
---my-color2: rgba(255, 255, 140, 1)!important; /*light_color*/  
---my-color3: rgba(255, 129, 129, 1)!important; /*light_color*/  
---my-color4: rgba(255, 208, 161, 1)!important; /*light_color*/  
+--my-color1: rgba(255, 255, 115, 1)!important; /*light_color*/  
+--my-color2: rgba(255, 76, 165, 1)!important; /*light_color*/  
+--my-color3: rgba(173, 91, 255, 1)!important; /*light_color*/  
+--my-color4: rgba(255, 216, 177, 1)!important; /*light_color*/  
 }
 
 /*20- [background color]:  the main entire page*/
@@ -77,7 +79,7 @@ font-weight: 600!important; /* added */
 main{    
 /*background-color: rgba(0, 27, 11, 1)!important; */
 background-color:rgba(0,0,0,0)!important;     
-color: rgba(133, 133, 255, 1)!important; /*light_color*/
+color: rgba(255, 68, 68, 1)!important; /*light_color*/
 font-size: 90%!important;  
 }
 
@@ -92,7 +94,7 @@ margin: 0px !important; /* * */
 
 /*415- [font color]: 'interests' left column text */
 .details-table td{  
-color: rgba(0, 210, 105, 1)!important; /*light_color*/
+color: rgba(255, 168, 211, 1)!important; /*light_color*/
 background-color:transparent!important;
 /*border-bottom:1px solid var(--my-color1)!important;*/
 }
@@ -101,24 +103,24 @@ background-color:transparent!important;
 
 /*471- [font color]: the link-text up to the friend photo  */
 .profile .friends .person p{
-color: rgba(255, 46, 255, 1)!important; /*bright_color*/
+color: rgba(255, 3, 3, 1)!important; /*bright_color*/
 }
 
 /*485- [font color]: text of 'comments' counter */
 .count{
-color: rgba(255, 79, 167, 1)!important; /*bright_color*/
+color: rgba(173, 91, 255, 1)!important; /*bright_color*/
 }
 
 /*496- [background color]: 'friend comments' left column */
 .comments-table td:first-child,
 .music-table td:first-child{
-background-color: rgba(16, 0, 37, 1)!important; /*dark_color*/
+background-color: rgba(0, 34, 14, 1)!important; /*dark_color*/
 }
 
 
 /*819- [font color of the 'Online' text next to the user photo]: */
 .online{
-color: rgba(174, 255, 255, 1)!important; /*light_color*/
+color: rgba(255, 131, 131, 1)!important; /*light_color*/
 }
 
 
@@ -128,7 +130,7 @@ color: rgba(174, 255, 255, 1)!important; /*light_color*/
 /* my additions */
 body {
 font-weight: 400!important; 
-font-family: Fira Sans, "Noto Sans", "Roboto", "Fira Sans", "Sans-Serif"!important; /*font_body*/
+font-family: Work Sans, "Noto Sans", "Roboto", "Fira Sans", "Sans-Serif"!important; /*font_body*/
 }
 
 
@@ -168,7 +170,7 @@ table {border-spacing: 0px;}
 /* << table headers font and background color, left side*/
 .heading {
 margin: 0px!important;
-color: rgba(26, 0, 26, 1)!important; /*dark_color*/
+color: rgba(0, 27, 0, 1)!important; /*dark_color*/
 background-color: var(--my-color1)!important;  /*_color*/  
 }
 
@@ -194,14 +196,14 @@ div.blog-preview > p{padding:5px!important;}
 .profile .blurbs, .profile .blog-preview, .profile .friends,.blog-preview h4{
 border: 1px solid var(--my-color2)!important;
 padding: 0px!important;
-background-color: rgba(36, 0, 36, 1)!important; /*dark_color*/  
+background-color: rgba(37, 0, 37, 1)!important; /*dark_color*/  
 }
 
 /*headers table right side>*/
 .profile .blurbs .heading,
 .profile .friends .heading,.blog-preview h4{
 margin: 0px!important;
-color: rgba(0, 0, 40, 1)!important; /*dark_color*/
+color: rgba(0, 16, 37, 1)!important; /*dark_color*/
 background-color: var(--my-color2)!important;  /*_*/
 text-align:center!important;
 }
@@ -220,7 +222,7 @@ padding-bottom:5px!important;
 }
 
 a.more,div h4 a {
-color: rgba(0, 34, 34, 1)!important; /*dark_color*/
+color: rgba(36, 15, 0, 1)!important; /*dark_color*/
 text-decoration: underline!important;
 }
 
@@ -233,7 +235,7 @@ border:1px solid var(--my-color4)!important;
 div>footer p:first-child{
 padding: 0px!important;
 margin: 0px!important;
-color: rgba(0, 0, 26, 1)!important; /*dark_color*/
+color: rgba(29, 12, 0, 1)!important; /*dark_color*/
 background-color: var(--my-color4)!important;
 }
 
@@ -270,6 +272,14 @@ nav ul.links {border:1px solid var(--my-color3)!important;}
 
         nav div.top {border-top:0px solid transparent!important;}
         nav ul.links {border-bottom:0px solid transparent!important;}  
+    
+
+    main > div{
+    display:flex!important;
+    flex-flow: row!important;
+    }
+    .col.w-40.left{order:2;width:40%!important;}
+    .col.right{order:1;width:60%!important;}
     
 
 /* ::::::::::::::::::::::::::::::::::::::::::::::::::::: */
@@ -315,5 +325,3 @@ border-radius: 10px 10px 0px 0px!important;
 
 /* ::::::::::::::::::::::::::::::::::::::::::::::::::::: */
 
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
